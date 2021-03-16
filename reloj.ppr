@@ -1,0 +1,26 @@
+program reloj;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}
+  cthreads,
+  {$ENDIF}
+  {$IFDEF HASAMIGA}
+  athreads,
+  {$ENDIF}
+  Interfaces, // this includes the CT adLCL widgetset
+  Forms, uPrincipal, uTamano, uAlarma
+  { you can add units after this };
+
+{$R *.res}
+
+begin
+  RequireDerivedFormResource:=True;
+  Application.Title := 'Reloj';
+  Application.Scaled := True;
+  Application.Initialize;
+  Application.CreateForm(TfReloj, fReloj);
+  Application.Run;
+end.
+

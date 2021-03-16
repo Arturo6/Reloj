@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="reloj.ppr"/>
+        <FRMtype Value="0"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="25"/>
+        <UsageCount Value="37"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uPrincipal.pas"/>
+        <FRMtype Value="0"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fReloj"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="133"/>
+        <CursorPos X="3" Y="148"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uTamano.pas"/>
+        <FRMtype Value="0"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fTamano"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="14" Y="51"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uAlarma.pas"/>
+        <FRMtype Value="0"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAlarma"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="42"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\codetyphon\typhon\lcl\include\customcontrol.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="49"/>
+        <CursorPos Y="79"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\codetyphon\typhon\lcl\include\brush.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="37"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\codetyphon\typhon\lcl\include\customform.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3163"/>
+        <CursorPos Y="3192"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\codetyphon\typhon\lcl\include\application.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2127"/>
+        <CursorPos Y="2150"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\codetyphon\typhon\lcl\include\wincontrol.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7886"/>
+        <CursorPos Y="7930"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\codetyphon\typhon\lcl\include\control.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4182"/>
+        <CursorPos Y="4208"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="uTamano.pas"/>
+        <Caret Line="50" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="uTamano.pas"/>
+        <Caret Line="56" Column="6" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="uPrincipal.pas"/>
+        <Caret Line="132" TopLine="100"/>
+      </Position>
+      <Position>
+        <Filename Value="uTamano.pas"/>
+        <Caret Line="46"/>
+      </Position>
+      <Position>
+        <Filename Value="uPrincipal.pas"/>
+        <Caret Line="132" TopLine="100"/>
+      </Position>
+      <Position>
+        <Filename Value="uTamano.pas"/>
+        <Caret Line="46"/>
+      </Position>
+      <Position>
+        <Filename Value="uTamano.pas"/>
+        <Caret Line="45" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="uPrincipal.pas"/>
+        <Caret Line="133" TopLine="100"/>
+      </Position>
+      <Position>
+        <Filename Value="uPrincipal.pas"/>
+        <Caret Line="69" Column="77" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="uTamano.pas"/>
+        <Caret Line="51" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="uPrincipal.pas"/>
+        <Caret Line="154" Column="14" TopLine="122"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="39" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="uPrincipal.pas"/>
+        <Caret Line="119" Column="16" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="44" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="uPrincipal.pas"/>
+        <Caret Line="169" Column="73" TopLine="143"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="45" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="46" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="45" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="51" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="52" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="46" Column="54"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="48" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="46" Column="18" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="51"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="50"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="51"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="50"/>
+      </Position>
+      <Position>
+        <Filename Value="uPrincipal.pas"/>
+        <Caret Line="163" Column="81" TopLine="133"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
