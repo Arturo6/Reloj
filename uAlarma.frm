@@ -7,7 +7,7 @@ object fAlarma: TfAlarma
   ClientHeight = 127
   ClientWidth = 192
   Position = poScreenCenter
-  LCLVersion = '7.2'
+  LCLVersion = '7.3'
   object lblAlarma: TLabel
     Left = 8
     Height = 15

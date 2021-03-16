@@ -7,7 +7,7 @@ object fTamano: TfTamano
   ClientHeight = 118
   ClientWidth = 332
   Position = poScreenCenter
-  LCLVersion = '7.2'
+  LCLVersion = '7.3'
   object cbTamano: TComboBox
     Left = 6
     Height = 23

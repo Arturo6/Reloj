@@ -1,3 +1,30 @@
+{
+  Programa Reloj
+
+  Pequeño programa para windows, escrito bajo Lazarus, que muestra un reloj en pantalla,
+  incluyendo la fecha y el día de la semana.
+
+  Se puede modificar el color y el tamaño de la fuente, así como la posición. Estos datos
+  se guardan en un archivo de configuración para retomarlos al momento de iniciar de nuevo
+  el programa.
+
+  Se puede establecer una alarma que sonará una sola vez y se desactivará.
+
+  Copyright (C) 2021, Arturo Molina (amolinaj@gmail.com)
+
+  This source is free software; you can redistribute it and/or modify it under the terms of the GNU General Public
+  License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later
+  version.
+
+  This code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+  warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+  details.
+
+  A copy of the GNU General Public License is available on the World Wide Web at
+  <http://www.gnu.org/copyleft/gpl.html>. You can also obtain it by writing to the Free Software Foundation, Inc., 51
+  Franklin Street - Fifth Floor, Boston, MA 02110-1335, USA.
+}
+
 unit uPrincipal;
 
 {$mode objfpc}{$H+}
