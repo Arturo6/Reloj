@@ -1,3 +1,8 @@
+{
+ Programa Reloj
+
+ }
+
 unit uPrincipal;
 
 {$mode objfpc}{$H+}
