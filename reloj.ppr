@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the CT adLCL widgetset
-  Forms, uPrincipal, uTamano, uAlarma
+  Forms, uPrincipal, uTamano, uAlarma, uSonido
   { you can add units after this };
 
 {$R *.res}
@@ -21,6 +21,7 @@ begin
   Application.Scaled := True;
   Application.Initialize;
   Application.CreateForm(TfReloj, fReloj);
+  Application.CreateForm ( TfSonido, fSonido ) ;
   Application.Run;
 end.
 

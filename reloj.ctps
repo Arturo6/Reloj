@@ -11,7 +11,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="25"/>
-        <UsageCount Value="41"/>
+        <UsageCount Value="46"/>
       </Unit>
       <Unit>
         <Filename Value="uPrincipal.pas"/>
@@ -20,9 +20,9 @@
         <ComponentName Value="fReloj"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="75"/>
-        <CursorPos X="105" Y="101"/>
-        <UsageCount Value="41"/>
+        <TopLine Value="136"/>
+        <CursorPos X="17" Y="150"/>
+        <UsageCount Value="46"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -33,9 +33,9 @@
         <ComponentName Value="fTamano"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <CursorPos X="14" Y="51"/>
-        <UsageCount Value="29"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -46,11 +46,25 @@
         <ComponentName Value="fAlarma"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="25"/>
-        <CursorPos X="116" Y="52"/>
-        <UsageCount Value="28"/>
+        <TopLine Value="13"/>
+        <CursorPos X="16" Y="48"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uSonido.pas"/>
+        <FRMtype Value="0"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fSonido"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="32"/>
+        <CursorPos X="9" Y="81"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -60,14 +74,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="49"/>
         <CursorPos Y="79"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\codetyphon\typhon\lcl\include\brush.inc"/>
         <FRMtype Value="0"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="37"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\codetyphon\typhon\lcl\include\customform.inc"/>
@@ -75,7 +89,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="3163"/>
         <CursorPos Y="3192"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\codetyphon\typhon\lcl\include\application.inc"/>
@@ -83,7 +97,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="2127"/>
         <CursorPos Y="2150"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\codetyphon\typhon\lcl\include\wincontrol.inc"/>
@@ -91,7 +105,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="7886"/>
         <CursorPos Y="7930"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\codetyphon\typhon\lcl\include\control.inc"/>
@@ -99,96 +113,10 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="4182"/>
         <CursorPos Y="4208"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="uPrincipal.pas"/>
-        <Caret Line="133" TopLine="100"/>
-      </Position>
-      <Position>
-        <Filename Value="uPrincipal.pas"/>
-        <Caret Line="69" Column="77" TopLine="50"/>
-      </Position>
-      <Position>
-        <Filename Value="uTamano.pas"/>
-        <Caret Line="51" Column="9"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-      </Position>
-      <Position>
-        <Filename Value="uPrincipal.pas"/>
-        <Caret Line="154" Column="14" TopLine="122"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="39" Column="9"/>
-      </Position>
-      <Position>
-        <Filename Value="uPrincipal.pas"/>
-        <Caret Line="119" Column="16" TopLine="114"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="44" Column="9"/>
-      </Position>
-      <Position>
-        <Filename Value="uPrincipal.pas"/>
-        <Caret Line="169" Column="73" TopLine="143"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="45" Column="36"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="46" Column="36"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="45" Column="36"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="51" Column="36"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="52" Column="3"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="46" Column="54"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="48" TopLine="5"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="46" Column="18" TopLine="5"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="51"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="50"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="51"/>
-      </Position>
-      <Position>
-        <Filename Value="uAlarma.pas"/>
-        <Caret Line="50"/>
-      </Position>
       <Position>
         <Filename Value="uPrincipal.pas"/>
         <Caret Line="163" Column="81" TopLine="133"/>
@@ -220,6 +148,94 @@
       <Position>
         <Filename Value="uAlarma.pas"/>
         <Caret Line="9" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="uPrincipal.pas"/>
+        <Caret Line="101" Column="105" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="52" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="53" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="52" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="53" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="57" Column="38" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="58" Column="26" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="73" Column="24" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="65" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="64" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="63" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="62" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="uSonido.pas"/>
+        <Caret Line="8" Column="77"/>
+      </Position>
+      <Position>
+        <Filename Value="uSonido.pas"/>
+        <Caret Line="41" Column="59"/>
+      </Position>
+      <Position>
+        <Filename Value="uSonido.pas"/>
+        <Caret Line="53" Column="33" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="uSonido.pas"/>
+        <Caret Line="54" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="uSonido.pas"/>
+        <Caret Line="70" Column="43" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="uAlarma.pas"/>
+        <Caret Line="47" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="uPrincipal.pas"/>
+        <Caret Line="149" Column="32" TopLine="124"/>
+      </Position>
+      <Position>
+        <Filename Value="uSonido.pas"/>
+        <Caret Line="38"/>
+      </Position>
+      <Position>
+        <Filename Value="uSonido.pas"/>
+        <Caret Line="46" Column="38" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="uSonido.pas"/>
+        <Caret Line="62" Column="42" TopLine="32"/>
       </Position>
     </JumpHistory>
     <CustomSessionData Count="2">

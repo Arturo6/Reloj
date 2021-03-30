@@ -1,15 +1,17 @@
 object fAlarma: TfAlarma
   Left = 358
-  Height = 155
+  Height = 149
   Top = 28
   Width = 192
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
   Caption = 'Alarma'
-  ClientHeight = 155
+  ClientHeight = 149
   ClientWidth = 192
-  OnActivate = FormActivate
   Position = poScreenCenter
+  ShowHint = True
   LCLVersion = '7.3'
-  object lblAlarma: TLabel
+  object lblHoraAlarma: TLabel
     Left = 8
     Height = 15
     Top = 9
@@ -18,9 +20,9 @@ object fAlarma: TfAlarma
     ParentColor = False
   end
   object btnAceptar: TBitBtn
-    Left = 9
+    Left = 8
     Height = 30
-    Top = 115
+    Top = 109
     Width = 75
     Caption = '&Aceptar'
     Default = True
@@ -66,7 +68,7 @@ object fAlarma: TfAlarma
   object btnCancelar: TBitBtn
     Left = 104
     Height = 30
-    Top = 115
+    Top = 109
     Width = 75
     Cancel = True
     Caption = 'Cancelar'
@@ -112,6 +114,7 @@ object fAlarma: TfAlarma
   object edtHora: TTimeEdit
     Left = 8
     Height = 23
+    Hint = 'Seleccione la hora pulsando el botón'
     Top = 29
     Width = 171
     ButtonWidth = 23
@@ -119,11 +122,11 @@ object fAlarma: TfAlarma
     MaxLength = 0
     TabOrder = 2
   end
-  object SpeedButton1: TSpeedButton
+  object btnAlarma: TSpeedButton
     Left = 81
     Height = 30
-    Hint = 'Elegir sonido de alarma'
-    Top = 66
+    Hint = 'Cambiar el sonido de la alarma'
+    Top = 63
     Width = 30
     Glyph.Data = {
       C2040000424DC204000000000000420000002800000018000000180000000100
@@ -166,16 +169,6 @@ object fAlarma: TfAlarma
       0000000000000000000000000000000000000000000000000000000000000000
       000000000000
     }
-    OnClick = SpeedButton1Click
-    ShowHint = True
-    ParentShowHint = False
-  end
-  object dlgSonidos: TOpenDialog
-    Title = 'Abrir un archivo de sonido'
-    DefaultExt = '.wav'
-    Filter = 'Archivos de sonido wav|*.wav'
-    Options = [ofAllowMultiSelect, ofExtensionDifferent, ofFileMustExist, ofNoNetworkButton, ofEnableSizing, ofViewDetail, ofAutoPreview]
-    Left = 138
-    Top = 69
+    OnClick = btnAlarmaClick
   end
 end

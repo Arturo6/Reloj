@@ -98,7 +98,7 @@ begin
   lblHora.Font.Size  := Tamano;
   lblFecha.Font.Size := Tamano div 2;
   lblDia.Font.Size   := Tamano div 3;
-  Sonido := Fichero.ReadString( 'Alarma', 'Ruta', ExtractFilePath( Application.ExeName ) + 'alarma.wav' );
+  Sonido := Fichero.ReadString( 'Alarma', 'Ruta', ExtractFilePath( Application.ExeName ) + 'alarma-1.wav' );
   Fichero.Free;
   Fondo;
   // Muestra hora y fecha
@@ -147,6 +147,7 @@ begin
   with TfAlarma.Create(Application) do
   try
      ShowModal;
+     GuardaConf;
   finally
     Free;
   end;

@@ -5,7 +5,7 @@ unit uTamano;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Buttons;
+  SysUtils, Forms, Graphics, StdCtrls, Buttons;
 
 type
 
