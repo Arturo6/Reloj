@@ -75,7 +75,7 @@ type
 var
   fReloj: TfReloj;
   Tamano: integer;
-  Alarma: String;
+  Alarma, Sonido: String;
 
 implementation
 
@@ -98,7 +98,7 @@ begin
   lblHora.Font.Size  := Tamano;
   lblFecha.Font.Size := Tamano div 2;
   lblDia.Font.Size   := Tamano div 3;
-
+  Sonido := Fichero.ReadString( 'Alarma', 'Ruta', ExtractFilePath( Application.ExeName ) + 'alarma.wav' );
   Fichero.Free;
   Fondo;
   // Muestra hora y fecha
@@ -167,6 +167,7 @@ begin
     lblHora.Font.Color:=Colorear.Color;
     lblFecha.Font.Color:=Colorear.Color;
     lblDia.Font.Color:=Colorear.Color;
+    GuardaConf;
   end;
 end;
 
@@ -193,8 +194,9 @@ begin
   // Actualiza la hora
   lblHora.Caption := TimeToStr( Now() );
   if FormatDateTime( 'HH:MM', Now() ) = Alarma then begin
-     SndPlaySound( PChar( ExtractFilePath( Application.ExeName ) + 'alarma.wav' ), snd_ASync );
+     SndPlaySound( PChar( Sonido ), snd_ASync );
      Alarma := '';
+     mnuAlarma.Caption := 'Alarma'
   end;
 end;
 
@@ -216,6 +218,7 @@ begin
   Fichero.WriteInteger( 'Posicion', 'Y', fReloj.Top );
   Fichero.WriteString( 'Colores', 'Color', ColorToString( lblHora.Font.Color ) );
   Fichero.WriteInteger( 'Fuente', 'Tamaño', lblHora.Font.Size );
+  Fichero.WriteString( 'Alarma', 'Ruta', Sonido );
   Fichero.Free;
 end;
 
